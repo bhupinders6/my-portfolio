@@ -14,3 +14,6 @@ What's completed so far:
 Bhupinder Singh 
 Humber College Student
 
+Link to portfolio:
+https://bhupinders6.github.io/my-portfolio/
+

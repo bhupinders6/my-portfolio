@@ -23,14 +23,24 @@ header h1{
     font-size: 2rem;
     margin-bottom: 10px;
 }
-header nav a{
+.tagline {
+    color: #aaaaaa;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+nav a{
     color:  #e94560;
     text-decoration: none;
     margin: 0 15px;
     font-size: 1rem;
+    display: inline;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
-header nav a:hover {
-    text-decoration: underline;
+nav a:hover {
+    text-decoration: none;
+    background-color: #e94560;
     color: #ffffff;
 }
 
