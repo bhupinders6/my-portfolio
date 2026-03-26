@@ -93,6 +93,7 @@ footer{
         font-size: 0.9rem;
     };
 }
+
 .hidden {
     display: none;
 }
@@ -106,4 +107,16 @@ footer{
 .toggle-btn {
     margin-top: 8px;
     cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 0.88rem;
+    margin-top: 4px;
+    display: block;
+}
+
+#success-message {
+    color: lightgreen;
+    margin-top: 10px;
 }
