@@ -43,7 +43,8 @@ nav a{
    transition: color 0.3s ease;
 }
 nav a:hover {
-    background-color: rgba(255, 77, 109, 0.15);
+    background-color: rgba(255, 77, 109, 0.2);
+    box-shadow: 0 0 8px rgba(255, 77, 109, 0.3);
     color: #ffffff;
 }
 
@@ -142,4 +143,8 @@ input, textarea {
   color: #ffffff;
   border: 1px solid #cbd5e1;
   padding: 6px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
