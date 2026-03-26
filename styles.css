@@ -93,3 +93,16 @@ footer{
         font-size: 0.9rem;
     };
 }
+.hidden {
+    display: none;
+}
+.project-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.toggle-btn {
+    margin-top: 8px;
+}
