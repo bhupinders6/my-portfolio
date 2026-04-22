@@ -63,7 +63,7 @@ if (contactForm) {
         if (messageInput.value.trim() === "") {
 
             messageError.textContent = "Message cannot be empty";
-            
+
             isValid = false;
             }
 
@@ -74,4 +74,11 @@ if (contactForm) {
     });
 }
 
+function toggleDarkMode() {
+  document.body.classList.toggle('light-mode');
+  const btn = document.getElementById('darkModeToggle');
+  btn.textContent = document.body.classList.contains('light-mode') 
+    ? '🌙 Dark Mode' 
+    : '☀️ Light Mode';
+}
 

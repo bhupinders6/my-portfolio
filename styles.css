@@ -10,10 +10,12 @@ body{
     color: #ffffff;
 }
 header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
     background-color: #1e293b;
     color: white;
     padding: 24px;
-    text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 h2, h3 {
@@ -163,4 +165,29 @@ input, textarea {
 
 html {
     scroll-behavior: smooth;
+}
+
+.light-mode {
+  background-color: #f0f0f0;
+  color: #1a1a2e;
+}
+
+.header-center {
+    grid-column: 2;
+    text-align: center;
+}
+.light-mode .card {
+  background-color: #ffffff;
+  color: #1a1a2e;
+}
+#darkModeToggle {
+   grid-column: 3;
+   justify-self: end;
+
+   background-color: #ff4d6d;
+   color: wheat;
+   border: none;
+   padding: 8px 16px;
+   border-radius: 20px;
+   cursor: pointer;
 }
