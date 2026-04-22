@@ -157,11 +157,21 @@ button:hover {
    background-color: #005bb5;
 }
 
-input, textarea {
-  background-color: #0f172a;
-  color: #ffffff;
-  border: 1px solid #cbd5e1;
-  padding: 6px;
+#contact input,
+#contact textarea {
+  background-color: #f3f4f6;
+  color: #1d1d1f;
+  border: 1px solid #d1d5db;
+  padding: 10px;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: none;
+  border-color: #0077ed;
+  box-shadow: 0 0 0 2px rgba(0, 119, 237, 0.15);
 }
 
 html {
@@ -220,4 +230,53 @@ html {
 
 body, section {
   transition: all 0.3s ease;
+}
+
+#contact button {
+  background-color: #ff4d6d;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+#contact button:hover {
+  background-color: #e11d48;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 900;
+  transition: 0.25s ease;
+}
+
+
+.social-links a:first-child {
+  background-color: #1f2937;
+  color: white;
+}
+
+.social-links a:last-child {
+  background-color: #0077b5;
+  color: white;
+}
+
+.social-links a:hover {
+  transform: translateY(-7px);
 }
